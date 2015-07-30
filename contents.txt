@@ -1,0 +1,9 @@
+Salutation:
+Hey Rob, this is going to be cool.
+
+Lead:
+You can just edit this file and then your templating engine will put it into the zurb templates.
+And then an inliner will inline it.
+
+Body:
+To get it working you need node.js installed. Then checkout this repo, cd into it, run `npm install` and then node write-email.js
