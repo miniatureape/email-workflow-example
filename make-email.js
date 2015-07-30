@@ -40,5 +40,5 @@ function prepareData(contents) {
     return tplData;
 }
 
-var output = juice(Mustache.render(template, prepareData(contents)));
-console.log(output);
+var out = juice(Mustache.render(template, prepareData(contents)));
+console.log(out);
