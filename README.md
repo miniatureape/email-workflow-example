@@ -15,7 +15,7 @@ node make-email.js > output.html
 
 ## Explanation
 
-Take a look at basic.html. That's the zurb basic email template, but I've added in three mustache variables, ```salutation```, ```lead``` and ```body```.
+Take a look at basic.html. That's the zurb basic email template, but I've added in [three mustache variables](https://github.com/miniatureape/email-workflow-example/blob/master/basic.html#L826-L828), ```salutation```, ```lead``` and ```body```.
 
 make-email.js opens contents.txt and makes a js object like this:
 
